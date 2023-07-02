@@ -15,7 +15,5 @@ const Dotenv = require('dotenv-webpack');
 // });
 
 module.exports = {
-  // Resto de tu configuración de Webpack
-  entry: './src/js/index.js',
-  // Resto de tu configuración de Webpack
+  mode: 'development',
 };

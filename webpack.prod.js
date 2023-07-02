@@ -5,7 +5,7 @@ const Dotenv = require('dotenv-webpack');
 module.exports = merge(common, {
     mode: 'production',
     output: {
-        publicPath: './src/js/index.js'
+        publicPath: './'
     },
     plugins: [
         new Dotenv({
